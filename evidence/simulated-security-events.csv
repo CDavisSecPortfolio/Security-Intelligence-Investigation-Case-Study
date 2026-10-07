@@ -1,0 +1,8 @@
+event_id,timestamp_ct,source,user,asset,event,severity,classification,disposition
+1001,2026-09-14 21:48,Identity,E-1047,ND-LT-447,After-hours successful authentication,medium,Internal,review
+1002,2026-09-14 21:55,FileAudit,E-1047,ENG-REPO-02,Confidential engineering repository accessed,medium,Confidential,review
+1003,2026-09-14 22:23,DLP,E-1047,ND-LT-447,Bulk access threshold: 186 files,high,Confidential,investigate
+1004,2026-09-14 22:17,Endpoint,E-1047,ND-LT-447,USB mass-storage device mounted,high,Internal,correlate
+1005,2026-09-14 22:31,Endpoint,E-1047,ND-LT-447,Archive design_review_2026.zip created,high,Confidential,investigate
+1006,2026-09-14 22:36,CloudDLP,E-1047,ND-LT-447,1.8 GB upload to unsanctioned cloud destination,critical,Confidential,escalate
+1007,2026-09-14 22:37,DLP,E-1047,ND-LT-447,Confidential-data transfer policy triggered,critical,Confidential,escalate
